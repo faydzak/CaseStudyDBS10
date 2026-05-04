@@ -5,8 +5,8 @@ import { useRouter } from "next/navigation";
 import {
   getUserHistory, getUserTotalSpent, isLoggedIn, getUser,
   formatRupiah, formatDate,
-} from "@/lib/api";
-import Alert from "@/components/Alert";
+} from "../lib/api";
+import Alert from "../components/Alert";
 
 export default function HistoryPage() {
   const router = useRouter();
